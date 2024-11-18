@@ -8,7 +8,7 @@ This project is a machine learning-based analysis to predict the likelihood of h
 The dataset is loaded and explored for missing or duplicate values.
 Columns include patient details such as age, sex, cholesterol levels, and target (heart disease presence).
 
-##Data Preprocessing:
+## Data Preprocessing:
 
 Data cleaning, normalization, and preparation for model training.
 
@@ -23,11 +23,11 @@ Models tested include:
 ### Gradient Boosting
 ### Performance metrics are evaluated and compared.
 
-##Visualization:
+## Visualization:
 
 Libraries like matplotlib and seaborn are used to generate insights from data.
 
-###How to Use
+### How to Use
 Clone the repository or download the notebook file.
 Ensure the required libraries are installed. Install dependencies using:
 bash
