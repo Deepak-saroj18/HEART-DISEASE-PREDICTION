@@ -1,29 +1,33 @@
-Heart Disease Prediction
+# Heart Disease Prediction
 This project is a machine learning-based analysis to predict the likelihood of heart disease using patient data. The notebook preprocesses data, evaluates multiple machine learning algorithms, and compares their performance to identify the most effective model.
 
-Project Structure
-Main Components
-Data Loading:
+# Project Structure
+## Main Components
+## Data Loading:
 
 The dataset is loaded and explored for missing or duplicate values.
 Columns include patient details such as age, sex, cholesterol levels, and target (heart disease presence).
-Data Preprocessing:
+
+##Data Preprocessing:
 
 Data cleaning, normalization, and preparation for model training.
-Model Training and Evaluation:
+
+## Model Training and Evaluation:
 
 Models tested include:
-Logistic Regression
-Support Vector Machine (SVM)
-K-Nearest Neighbors (KNN)
-Decision Trees
-Random Forest
-Gradient Boosting
-Performance metrics are evaluated and compared.
-Visualization:
+### Logistic Regression
+### Support Vector Machine (SVM)
+### K-Nearest Neighbors (KNN)
+### Decision Trees
+### Random Forest
+### Gradient Boosting
+### Performance metrics are evaluated and compared.
+
+##Visualization:
 
 Libraries like matplotlib and seaborn are used to generate insights from data.
-How to Use
+
+###How to Use
 Clone the repository or download the notebook file.
 Ensure the required libraries are installed. Install dependencies using:
 bash
@@ -33,7 +37,8 @@ Run the notebook using Jupyter Notebook or Jupyter Lab:
 bash
 Copy code
 jupyter notebook Heart_Disease_Prediction.ipynb
-Dataset
+
+## Dataset
 The dataset contains the following columns:
 
 age: Patient age in years
@@ -50,7 +55,8 @@ slope: Slope of the peak exercise ST segment
 ca: Number of major vessels (0-3) colored by fluoroscopy
 thal: Thalassemia (categorical)
 target: Diagnosis of heart disease (1 = disease, 0 = no disease)
-Requirements
+
+## Requirements
 The project uses the following libraries:
 
 pandas
@@ -59,5 +65,6 @@ scikit-learn
 matplotlib
 seaborn
 joblib
-Results
+
+## Results
 The notebook concludes by identifying the best-performing model based on accuracy, precision, and other metrics.
